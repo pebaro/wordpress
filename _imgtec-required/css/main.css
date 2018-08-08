@@ -1,0 +1,44 @@
+.none-applied { margin-top: 0px; margin-bottom: -30px; color: black; font-size: 85%; }
+.red { color: #ce0101 !important; font-weight: normal !important; }
+
+.admin-tab-content { padding: 20px 0 0 35px !important; }
+
+.tab-content { display: none; background: #fff; padding: 15px; }
+.tab-content.current { display: inherit; }
+
+
+.imgtec-cpt-listing { border-bottom: 1px solid #e6e6e6; padding: 15px 0 50px; display: block; clear: both; }
+.imgtec-cpt-listing:last-child { border-bottom: none !important; }
+
+.imgtec-cpts h2 { font-weight: bold; font-size: 1.6em; }
+.imgtec-cpts h3 { font-size:1.25em; color: #004768; margin:0 0 15px; padding: 0; }
+.imgtec-cpts h4 { font-size:0.9em; color: #004768; font-weight: normal !important; }
+.imgtec-cpts h5 { margin-bottom: -30px !important; color: black !important; font-size: 85% !important; }
+
+.imgtec-cpts a { text-decoration: none !important; color: #FFF; background: #265d70; padding: 6px 14px; margin: 5px 25px 5px 0px; border-radius: 5px; font-size: 95%; }
+.imgtec-cpts a:hover { background: #043040; }
+
+.imgtec-options a:last-child { background: #02b6eb;}
+.imgtec-options a:last-child:hover { background: #008fb9; }
+
+.imgtec-taxonomies { display: block; clear: both; }
+.imgtec-taxonomies h5 {  font-weight: normal !important; margin-bottom: -30px !important; color: black !important; font-size: 85% !important; }
+.imgtec-taxonomies a { background: #FFF; color: #004a64; border:1px solid #004a64; font-size: 0.8em; padding: 3px 8px; display: inline-block; float: left; margin: 0 16px 30px 0; }
+.imgtec-taxonomies a:hover { background: #FFF !important; border:1px solid #02b6eb; }
+
+ul.tabs { margin: 20px 0px 0px; padding: 0px; list-style: none; font-weight: normal !important; }
+ul.tabs li { background: #0d4356; display: inline-block; padding: 0px 15px; margin: 0 !important; cursor: pointer; font-weight: normal !important; position: relative; }
+ul.tabs li:hover { background: #035f72; }
+ul.tabs li h4 {	color: #FFF !important; margin: 0px; padding: 10px 0px; font-weight: normal !important; }
+ul.tabs li.current { background: #fff; color: #0d4356; border-top: 4px solid #02b6eb; }
+ul.tabs li.current h4 {	color: #0d4356 !important; font-weight: normal !important; font-size: 0.95em; }
+
+
+h3.download-pages-heading { margin-top: 20px !important; font-size: 95%; color: #004768 !important; font-weight: bold; }
+
+p.download-buttons-para { display: block; padding: 0 0 30px; margin: 10px 0 20px -10px; }
+
+.imgtec-page-link-seperator { padding: 0 5px; color: #e4e4e4; }
+
+a.download-buttons { background: none !important; border: none !important; color: #0098c4 !important; font-weight: bold !important; margin-left: 10px !important; margin-right: 10px !important; padding: 0 !important; text-decoration: underline !important;    font-size: 92%; }
+a.download-buttons:hover { color: #265d70 !important; text-decoration: none !important; }
