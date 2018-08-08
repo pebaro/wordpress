@@ -1,0 +1,180 @@
+/**
+ * The Download Manager Plugin Stylesheet
+ */
+
+/**
+ * Style Overrides
+ */
+
+body {
+	background-color: initial;
+}
+
+.postbox .form-group select {
+	padding: 6px 12px;
+	line-height: 1.42857143;
+	height: 34px;
+}
+
+/**
+ * Generic Plugin Styles
+ */
+.download-plugin {
+	max-width: 100%;
+	display: block;
+}
+
+.download-plugin .checkbox-toggle {
+	display: none;
+}
+
+.download-plugin .required {
+	color: #ff0000;
+}
+
+/**
+ * Form Styles
+ */
+
+.post-type-downloads #post-body-content {
+	display: none;
+}
+
+#download-manager-form {
+	margin: 20px;
+}
+
+#download-manager-form h3.hndle:not(:first-child){
+	padding-left: 0;
+	margin-bottom: 15px;
+	cursor: pointer;
+	-ms-touch-action: none;
+	touch-action: none;
+}
+
+#download-manager-form .checkbox {
+	font-size: 15px;
+}
+
+#download-manager-form .checkbox-list {
+	margin-top: 5px;
+}
+
+#download-manager-form .checkbox-list label {
+	font-weight: normal;
+	font-size: 15px;
+}
+
+#download-manager-form .checkbox-list input[type="checkbox"] {
+	margin-top: 0;
+	margin-right: 4px;
+}
+
+#download-manager-form input[type="file"]:focus,
+#download-manager-form input[type="radio"]:focus,
+#download-manager-form input[type="checkbox"]:focus {
+	outline: none;
+}
+
+/**
+ * Download Whitelist
+ */
+#downloads-whitelist .col-md-9 h2 {
+	margin-top: 0;
+}
+
+#downloads-whitelist input[type="submit"],
+#downloads-whitelist textarea {
+	width: 100%;
+}
+
+/**
+ * Download Requests
+ */
+
+#download-requests .fake-tab {
+	margin-right: 2px;
+	line-height: 1.42857143;
+	border: 1px solid rgba(0, 0, 0, 0);
+	border-radius: 4px 4px 0 0;position: relative;
+	display: block;
+	padding: 10px 15px;
+}
+
+#download-requests .badge {
+	margin-left: 5px;
+	margin-bottom: 1px;
+}
+
+#download-requests .empty {
+	padding: 7px;
+}
+
+#download-requests select[name="request-status"] {
+	height: 25px;
+	width: 100%;
+}
+
+a.intended-use {
+	cursor: pointer;
+}
+
+/**
+ * Download Reports
+ */
+
+.download-report .row {
+	margin: 0px;
+}
+
+.rep-pagination {
+	display: block;
+	margin-bottom:10px;
+}
+
+.pagination_links {
+	padding: 0 8px;
+}
+
+.btn-view-all {
+	padding: 5px 10px;
+	background: #b71a8b;
+	color: #fff;
+	border-radius: 2px;
+	text-decoration: none;
+	line-height: 1;
+	font-weight: 600;
+	display: inline-block;
+	border: 1px solid #b71a8b;
+}
+.btn-view-all:hover,.btn-view-all:active,.btn-view-all:focus {
+	color: #fff;
+	background: #650F4D;
+	border: 1px solid #650F4D;
+}
+.page-numbers {
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 0 2px 0 0;
+	border: 1px solid #ccc;
+	line-height: 1;
+	text-decoration: none;
+	border-radius: 2px;
+	font-weight: 600;
+}
+.page-numbers.current,
+a.page-numbers:hover {
+	background: #b71a8b;
+	border: 1px solid #b71a8b;
+	color: #fff;
+}
+
+a.page-numbers {
+	color: #3b3b3b;
+	text-decoration: none;
+
+}
+.page-numbers.dots {
+	border: none;
+}
+.requests-tab { display: block !important; }

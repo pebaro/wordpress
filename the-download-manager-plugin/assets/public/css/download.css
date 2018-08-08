@@ -1,0 +1,129 @@
+/**
+ * Lets do some resetting
+ */
+.download-notice,
+.download-notice-message,
+.download-notice-message p {
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * Defualt Stylings
+ */
+.download-notice {
+	overflow: hidden;
+}
+
+.download-notice-message {
+	max-width: 980px;
+	margin: 20px auto;
+}
+
+.download-notice-message p {
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.download-notice .close-download-notice {
+	float: right;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #ffffff;
+	opacity: .2;
+	filter: alpha(opacity=20);
+	color: #ffffff;
+	cursor: pointer;
+}
+
+/**
+ * Styling for Denied notices
+ */
+.download-notice.denied {
+	background-color: #333333;
+}
+
+.download-notice.denied p {
+	color: #ffffff;
+}
+
+/**
+ * The Download Post Styling
+ */
+
+.download-content {
+	padding-top: 25px;
+	overflow: hidden;
+}
+
+.download-featured {
+	width: 150px;
+	height: 150px;}
+
+.download-content .download-featured {
+	margin-right: 15px;
+}
+
+.download-content .download {
+	margin-bottom: 10px;
+}
+
+.download-content .download h3 {
+	margin-top: 0;
+}
+
+.download-count {
+	display: block;
+}
+
+table.table-download-list > thead > tr > th {
+}
+
+table.table-download-list > tbody > tr > td {
+    vertical-align: middle;
+}
+
+table.table-download-list > tbody > tr > td:not(:nth-child(2)) {
+    text-align: center;
+}
+
+/**
+ * Download Table List
+ */
+
+#download-list hr {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.table-download-list a {
+	font-weight: 300;
+}
+
+table.table-download-list > tbody > tr > td {
+	padding: 8px 3px;
+}
+
+.table-download-list .download-list-name {
+	background-size: 40px;
+	background-position: 5px 8px;
+	background-repeat:  no-repeat;
+	line-height: normal;
+}
+
+.table-download-list .fa, .download-content .fa {
+	margin-right: 5px;
+}
+
+#download-request-form {
+	display: inline-block;
+}
+
+a.download-request-submit {
+	cursor: pointer;
+}
+
+a.download-category {
+	display: block;
+}
